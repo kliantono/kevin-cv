@@ -356,7 +356,7 @@ ul#nav li.current a { color: #F06000; }
   	-webkit-animation: jquery 2s ease;
 }
 .python {
-  	width: 80%;
+  	width: 90%;
   	-moz-animation: jquery 2s ease;
   	-webkit-animation: jquery 2s ease;
 }
@@ -396,12 +396,12 @@ ul#nav li.current a { color: #F06000; }
   	-webkit-animation: agentic-ai 2s ease;
 }
 .pytorch {
-  	width: 80%;
+  	width: 85%;
   	-moz-animation: pytorch 2s ease;
   	-webkit-animation: pytorch 2s ease;
 }
 .gcp {
-  	width: 75%;
+  	width: 80%;
   	-moz-animation: gcp 2s ease;
   	-webkit-animation: gcp 2s ease;
 }
@@ -432,7 +432,7 @@ ul#nav li.current a { color: #F06000; }
 }
 @-moz-keyframes python {
   0%   { width: 0px;  }
-  100% { width: 80%;  }
+  100% { width: 90%;  }
 }
 @-moz-keyframes sql {
   0%   { width: 0px;  }
@@ -453,6 +453,22 @@ ul#nav li.current a { color: #F06000; }
 @-moz-keyframes dbt {
   0%   { width: 0px;  }
   100% { width: 85%;  }
+}
+@-moz-keyframes causal-inference {
+  0%   { width: 0px;  }
+  100% { width: 95%;  }
+}
+@-moz-keyframes agentic-ai {
+  0%   { width: 0px;  }
+  100% { width: 85%;  }
+}
+@-moz-keyframes pytorch {
+  0%   { width: 0px;  }
+  100% { width: 85%;  }
+}
+@-moz-keyframes gcp {
+  0%   { width: 0px;  }
+  100% { width: 80%;  }
 }
 
 @-webkit-keyframes photoshop {
@@ -481,7 +497,7 @@ ul#nav li.current a { color: #F06000; }
 }
 @-webkit-keyframes python {
   0%   { width: 0px;  }
-  100% { width: 80%;  }
+  100% { width: 90%;  }
 }
 @-webkit-keyframes sql {
   0%   { width: 0px;  }
@@ -502,6 +518,22 @@ ul#nav li.current a { color: #F06000; }
 @-webkit-keyframes dbt {
   0%   { width: 0px;  }
   100% { width: 85%;  }
+}
+@-webkit-keyframes causal-inference {
+  0%   { width: 0px;  }
+  100% { width: 95%;  }
+}
+@-webkit-keyframes agentic-ai {
+  0%   { width: 0px;  }
+  100% { width: 85%;  }
+}
+@-webkit-keyframes pytorch {
+  0%   { width: 0px;  }
+  100% { width: 85%;  }
+}
+@-webkit-keyframes gcp {
+  0%   { width: 0px;  }
+  100% { width: 80%;  }
 }
 /* ------------------------------------------------------------------ */
 /* e. Portfolio Section
