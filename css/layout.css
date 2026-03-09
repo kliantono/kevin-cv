@@ -385,6 +385,26 @@ ul#nav li.current a { color: #F06000; }
   	-moz-animation: jquery 2s ease;
   	-webkit-animation: jquery 2s ease;
 }
+.causal-inference {
+  	width: 95%;
+  	-moz-animation: causal-inference 2s ease;
+  	-webkit-animation: causal-inference 2s ease;
+}
+.agentic-ai {
+  	width: 85%;
+  	-moz-animation: agentic-ai 2s ease;
+  	-webkit-animation: agentic-ai 2s ease;
+}
+.pytorch {
+  	width: 80%;
+  	-moz-animation: pytorch 2s ease;
+  	-webkit-animation: pytorch 2s ease;
+}
+.gcp {
+  	width: 75%;
+  	-moz-animation: gcp 2s ease;
+  	-webkit-animation: gcp 2s ease;
+}
 
 @-moz-keyframes photoshop {
   0%   { width: 0px;  }
